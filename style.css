@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("./assets/bg.jpg");
+    height: 90vh;
+    position: relative;
+    max-width: (1200px, 100vw);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main .box {
+    background-color: black;
+    height: 90vh;
+    width: 100vw;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    height: 40px;
+    padding-top: 20px;
+}
+
+.login {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 13px;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    /* padding-left: 10px; */
+    margin-left: 30px;
+}
+
+.lang {
+    background: none;
+    border-radius: 5px;
+    border: .5px solid rgba(255, 255, 255, 0.404);
+    color: white;
+    height: 35px;
+    width: 85px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+    margin: auto;
+    height: 80px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar div {
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    /* position: relative;
+    gap: 20px; */
+}
+
+.info {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    margin: auto;
+    /* height: 85vh; */
+    height: calc(100% - 80px);
+    width: 75vw;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    padding: 0px 30px;
+}
+
+.info span {
+    color: white;
+    text-align: center;
+}
+
+.one {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.two {
+    font-size: 24px;
+}
+
+.three {
+    font-size: 20px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    /* background: none; */
+    border: 1px solid rgba(255, 255, 255, 0.537);
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.start {
+    height: 45px;
+    width: 170px;
+    font-size: 17px;
+    margin-left: 10px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    color: white;
+}
+
+.line {
+    height: 7px;
+    /* width: 100vw; */
+    background-color: rgba(128, 128, 128, 0.322);
+}
+
+.secImg img {
+    height: 440px;
+    position: relative;
+    z-index: 5;
+    top: 135px;
+    left: 40px;
+}
+
+.secImg video {
+    height: 239px;
+    position: relative;
+    top: -217px;
+    right: -119px;
+    z-index: 4;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 75vw;
+    margin: auto;
+}
+
+.first div h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.first div p {
+    font-size: 22px;
+    color: white;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 75vw;
+    margin: auto;
+}
+
+.second div h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.second div p {
+    font-size: 22px;
+    color: white;
+}
+
+.img1 {
+    height: 350px;
+    position: relative;
+    z-index: 4;
+    top: 100px;
+}
+
+.img2 {
+    position: relative;
+    z-index: 5;
+    left: 100px;
+    height: 140px;
+    top: -25px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 75vw;
+    margin: auto;
+}
+
+.third div h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.third div p {
+    font-size: 22px;
+    color: white;
+}
+
+.third div img {
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    z-index: 5;
+}
+
+.third div video {
+    height: 188px;
+    position: relative;
+    top: -258px;
+    left: 139px;
+    z-index: 4;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 75vw;
+    margin: auto;
+}
+
+.fourth div h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.fourth div p {
+    font-size: 22px;
+    color: white;
+}
+
+.fourth div img {
+    height: 400px;
+}
+
+.fifth {
+    width: 75vw;
+    margin: auto;
+    height: 900px;
+}
+
+.fifth h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.endInfo {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.que1,
+.que2,
+.que3,
+.que4,
+.que5,
+.que6 {
+    height: 11vh;
+    width: 72vw;
+    background-color: rgb(43, 42, 42);
+}
+
+.fifth ul li {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.que1:hover,
+.que2:hover,
+.que3:hover,
+.que4:hover,
+.que5:hover,
+.que6:hover {
+    background-color: rgb(64, 64, 64);
+    cursor: pointer;
+}
+
+.fifth p {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.end {
+    text-align: center;
+}
+
+.sixth {
+    width: 75vw;
+    margin: auto;
+    height: 400px;
+}
+
+.Contact {
+    font-size: 13px;
+    padding: 50px 0px 20px 0px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.sixth button {
+    margin: 30px 0px 10px 0px;
+}
+
+.boxes {
+    display: flex;
+    /* height: 100vh; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    margin: 2.5px 120px 2.5px 0px;
+}
+
+.add-link {
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 13px;
+}
+
+.NetflixIndia {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+@media (max-width: 1280px) {
+    .navbar {
+        width: 95vw;
+    }
+
+    .main {
+        height: 80vh;
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth {
+        width: 90vw;
+    }
+
+    .que1,
+    .que2,
+    .que3,
+    .que4,
+    .que5,
+    .que6 {
+        height: 7vh;
+        width: 87vw;
+        background-color: rgb(43, 42, 42);
+    }
+
+}
+
+@media (max-width: 960px) {
+    .logo {
+        height: 30px;
+        padding-top: 10px;
+    }
+
+    .login {
+        margin-left: 10px;
+    }
+
+    .one {
+        font-size: 2rem;
+    }
+
+    .two {
+        font-size: 20px;
+    }
+
+    .three {
+        font-size: 16px;
+    }
+
+    .info {
+        gap: 15px;
+    }
+
+    .info div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    .start {
+        font-size: 15px;
+        width: 140px;
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        width: 75vw;
+    }
+
+    .secImg {
+        display: flex;
+    }
+
+    .secImg img {
+        height: 270px;
+        position: relative;
+        top: -5px;
+        left: 126px;
+    }
+
+    .secImg video {
+        top: 55px;
+        height: 144px;
+        right: 184px;
+    }
+
+    .first div h1,
+    .second div h1,
+    .third div h1,
+    .fourth div h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .first div p,
+    .second div p,
+    .third div p,
+    .fourth div p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .second {
+        flex-direction: column-reverse;
+    }
+
+    .img1 {
+        height: 300px;
+    }
+
+    .img2 {
+        height: 115px;
+        left: 90px;
+        top: 2px;
+    }
+
+    .third div img {
+        height: 235px;
+        left: -3px;
+    }
+
+    .third div video {
+        height: 100px;
+        top: -118px;
+        left: 64px;
+    }
+
+    .fourth {
+        flex-direction: column-reverse;
+    }
+
+    .fourth div img {
+        height: 250px;
+    }
+
+    .fifth {
+        width: 75vw;
+    }
+
+    .fifth h1 {
+        font-size: 2rem;
+    }
+
+    .endInfo {
+        /* width: 40px; */
+        margin: auto;
+    }
+
+    .fifth ul li {
+        font-size: 15px;
+        width: 75vw;
+        padding: 0px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .grid-item {
+        margin: 2.5px 20px 2.5px 0px;
+    }
+}
